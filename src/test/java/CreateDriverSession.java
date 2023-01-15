@@ -10,6 +10,10 @@ import java.net.URL;
 
 public class CreateDriverSession {
 
+    public static void main(String[] args) {
+
+    }
+
     public static AppiumDriver initializeDriver(String platformName) throws Exception {
 
         DesiredCapabilities capabilities=new DesiredCapabilities();
