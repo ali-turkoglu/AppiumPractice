@@ -33,6 +33,7 @@ public class CreateDriverSession {
                 capabilities.setCapability("appActivity","io.appium.android.apis.ApiDemos");
 
                 return new AndroidDriver(url,capabilities);
+
             case "iOS":
                 capabilities.setCapability(MobileCapabilityType.DEVICE_NAME,"iPhone 11");
                 capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME,"XCUITest");
